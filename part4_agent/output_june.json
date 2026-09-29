@@ -1,0 +1,36 @@
+{
+  "run_month": "June",
+  "validation_status": "valid",
+  "validation_errors": [],
+  "flagged_categories": [
+    {
+      "category": "Ethnic Wear",
+      "mom_pct": -58.74,
+      "previous_revenue": 185107.61,
+      "current_revenue": 76371.53,
+      "drafted": true,
+      "message": "Context: This update covers Ethnic Wear revenue, June versus May. Revenue was INR 185107.61 in May and INR 76371.53 in June.\nInsight (fact): Ethnic Wear revenue changed by -58.74% month on month, an overall decline.\nImplication (hypothesis, not proven by this data alone): the movement may reflect a change in reseller activity or product mix. Recommended next step: check whether resellers reduced their Ethnic Wear listings or whether Ethnic Wear demand fell, and compare order counts and return rates for Ethnic Wear between May and June."
+    },
+    {
+      "category": "Home & Kitchen",
+      "mom_pct": 42.59,
+      "previous_revenue": 91152.57,
+      "current_revenue": 129971.22,
+      "drafted": true,
+      "message": "Context: This update covers Home & Kitchen revenue, June versus May. Revenue was INR 91152.57 in May and INR 129971.22 in June.\nInsight (fact): Home & Kitchen revenue changed by 42.59% month on month, an overall increase.\nImplication (hypothesis, not proven by this data alone): the movement may reflect a change in reseller activity or product mix. Recommended next step: check whether the rise in Home & Kitchen came from a few resellers or many, and confirm stock availability and return rates for Home & Kitchen before June demand carries forward."
+    },
+    {
+      "category": "Kids Wear",
+      "mom_pct": 23.9,
+      "previous_revenue": 45793.78,
+      "current_revenue": 56737.78,
+      "drafted": true,
+      "message": "Context: This update covers Kids Wear revenue, June versus May. Revenue was INR 45793.78 in May and INR 56737.78 in June.\nInsight (fact): Kids Wear revenue changed by 23.9% month on month, an overall increase.\nImplication (hypothesis, not proven by this data alone): the movement may reflect a change in reseller activity or product mix. Recommended next step: check whether the rise in Kids Wear came from a few resellers or many, and confirm stock availability and return rates for Kids Wear before June demand carries forward."
+    }
+  ],
+  "suppressed_categories": [
+    "Western Wear"
+  ],
+  "escalated_categories": [],
+  "action_taken": "drafted_and_held_for_approval"
+}
