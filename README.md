@@ -78,6 +78,7 @@ sqlite3 data/meesho_reseller.db
 .headers on
 .mode csv
 .output part1_sql/output/monthly_category_revenue.csv
+-- paste the matching query from queries.sql here, ending with ;
 .output stdout
 .quit
 ```
