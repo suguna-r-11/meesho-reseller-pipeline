@@ -16,10 +16,10 @@ It is four parts that feed into each other, and everything runs on the Python st
 
 ## Requirements
 
-- Python 3.8 or newer (on Windows, use `py` instead of `python` if the first one doesn't work)
-- The `sqlite3` command-line shell, only if you want to re-run the Part 1 exports yourself. The results are already saved in the repo.
+- Python 3.8 
+- The `sqlite3` command-line shell. 
 
-**No API keys, no accounts, nothing paid.** The "AI narrative" step is a plain template-fill function that works offline, so the whole pipeline (every acceptance criterion in the brief) runs correctly with zero API keys set. I did not wire in a real LLM.
+**No API keys, no accounts, nothing paid.** The "AI narrative" step is a plain template-fill function that works offline, so the whole pipeline (every acceptance criterion in the brief) runs correctly with zero API keys set. 
 
 ## Repository layout
 
@@ -78,7 +78,6 @@ sqlite3 data/meesho_reseller.db
 .headers on
 .mode csv
 .output part1_sql/output/monthly_category_revenue.csv
-# paste the matching query from queries.sql here, ending with ;
 .output stdout
 .quit
 ```
