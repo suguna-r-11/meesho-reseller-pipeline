@@ -145,6 +145,13 @@ The first command runs 5 agent-level tests (expected output: `OK`). The other th
 | Part 3 | Reusable prompt pack | Trigger, Input list, Prompt, Checklist. Writes in a Context, Insight, Implication shape, labels claims as fact or hypothesis, and masks reseller names in external text. |
 | Part 4 | Intake, Summary, Report Draft, Validate | Load and validate the feeds, work out the changes, draft a capped number of messages, then hold everything for human approval with every number traceable. Invalid input causes a hard stop, not a quiet skip. |
 
+## Tools used
+
+- **Notepad**: to write and save the code and Markdown files.
+- **Windows Command Prompt (cmd)**: to run the Python scripts and the tests.
+- **sqlite3 command-line shell**: to run the SQL queries against `data/meesho_reseller.db` and export each result to CSV (`.headers on`, `.mode csv`, `.output`).
+- **GitHub web interface**: to upload the files to the repository.
+
 ## Documentation referenced
 
 - Official Python standard-library documentation: `random`, `csv`, `os`, `sqlite3`, `json`, `re`, `tempfile`, `unittest`
